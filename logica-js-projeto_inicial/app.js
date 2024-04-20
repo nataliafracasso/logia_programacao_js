@@ -1,5 +1,5 @@
 
-alert ('Seja bem vindo ao jogo descubra o número secreto!');
+alert('Seja bem vindo ao jogo descubra o número secreto!');
 let numeromaximo= 100; // número máximo do jogo
 let numerosecreto = parseInt(Math.random()* numeromaximo +1);
 let chute;
