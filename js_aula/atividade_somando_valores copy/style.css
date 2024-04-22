@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-branco:#ffffff;
+    --destaque-texto:#f5f5f5b9;
+    --cor-cinza:hsl(204, 43%, 93%);
+    --cor-cinza_escuro-:hsl(218, 22%, 67%);
+    --cor-azul: hsla(179, 50%, 43%, 0.534);
+    --cor-azul-claro:hsl(179, 62%, 43%);
+    --cor-amarelo:hsl(71, 73%, 54%);
+}
+body{
+    background-color:var(--cor-cinza);
+    font-family: "Poppins", sans-serif;
+
+    background-image: url(img/pattern-background-desktop.svg);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.grid{
+   height: 100vh ;
+   display: grid;
+   justify-items: center;
+   align-items: center;
+}
+.conteudo{
+    display: grid;
+    grid-template-columns:  50% auto;
+    padding-left: 1em;
+    width: 750px;
+    height: 350px;
+    background-color:var(--cor-branco);
+    border-radius: 10px;
+}
+h1{
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+.resultado{
+    font-weight: 600;
+}
+.texto{
+    padding-top: 3em;
+}
+span{
+    padding-top: 2em;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--cor-azul-claro);
+}
+.caixa_botao{
+    display: flex;
+    align-items: flex-end;
+    gap: 1em;
+}
+.caixa, .botao{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+.botao{
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--cor-azul);
+}
+.botao:hover{
+    background-color: var(--cor-amarelo);
+}
+.img{
+    background-image: url(img/cars-5970663_640.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
