@@ -9,6 +9,7 @@
 
 :root{
     --color-bege:#F2EBBF;
+    --color-branco: #f0f0f0;
     --cor-laranja:#F3B562;
     --cor-azul:#8CBEB2;
     --cor-preto:#5C4B51;
@@ -16,16 +17,37 @@
 
 body{
     font-family: "Kanit", sans-serif;
-    background-color: black;
+    background-color: var(--color-bege);
+}
+.header > h1{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.caixa_texto{
+    font-size: 1.5rem;
 }
 .caixa{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2em;
 }
 .caixa_conteudo{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 1.5em;
+
     background-color: white;
-    width: 320px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.233);
+    width: 350px;
+    padding: 1em 0 1em 0;
     border-radius: 6px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
