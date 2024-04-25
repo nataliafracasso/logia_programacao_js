@@ -17,7 +17,9 @@ function carregar(){
     let data = new Date(); // Construtor que contem a data e hora
     let hora = data.getHours(); // método do new date, que vai retornar a hora. 
     let min = data.getMinutes(); //método do new date, que vai retornar a min.
-    let img = document.querySelector('#img')
+    let img = document.querySelector('#img');
+
+    
     
     textoNaTela('p', `Agora são ${hora} horas e ${min}minutos`)
 
@@ -27,6 +29,7 @@ function carregar(){
     } else if (hora > 12 && hora < 18){
         img.src ='img/tarde.jpg';
         mudarCordeFundo( 'var(--cor-laranja)' );
+        document.querySelector('h1').style.color = "white";
     } else{
         img.src ='img/noite.jpg';
         mudarCordeFundo('var(--cor-preto)');
