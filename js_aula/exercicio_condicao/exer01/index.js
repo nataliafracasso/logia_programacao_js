@@ -5,9 +5,6 @@ function textoNaTela(tag, text){ // vai receber uma tag e um texto
 
 textoNaTela('h1', 'Hora do Dia');
 
-function formatarNumero(numero){
-    return numero < 10 ? "0" + numero : numero; 
-}
 
 function mudarCordeFundo(cor){ //Recebe um parâmetro cor
     document.body.style.backgroundColor = cor; //para definir a cor de fundo do body como a cor passada como parâmetro.
