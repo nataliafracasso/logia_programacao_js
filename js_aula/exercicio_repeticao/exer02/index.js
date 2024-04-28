@@ -13,11 +13,16 @@ function contar(){
     if(Number(primeiroNumero.length) === 0 || Number(segundoNumero.length) === 0 || Number(passo.length) === 0 ){
         alert('[Erro] Faltam dados!')
     }else{
-        primeiroNumero = parseInt(primeiroNumero);
-        segundoNumero = parseInt(segundoNumero);
-        passo = parseInt(passo);
-        for(let c = primeiroNumero; c <= segundoNumero; c += passo )
-        exibirTextoNaTela('p:nth-of-type(4)', `Contando: ${c}`);
+        let i = Number(primeiroNumero);
+        let f = Number(segundoNumero);
+        let p = Number(passo);
+        
+        for(let c = i ; c <= f; c += p ){
+
+            exibirTextoNaTela('p:nth-of-type(4)', `Contando: ${c}`);
+
+        }
+        
     }
     
 }
