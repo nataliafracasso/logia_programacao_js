@@ -5,25 +5,25 @@ function exibirTextoNaTela(tag, text){
  exibirTextoNaTela('h1', 'Vamos Contar');
 
 function contar(){
-
     let primeiroNumero = document.getElementById('inicio').value;
     let segundoNumero = document.getElementById('fim').value;
-    let passo = document.getElementById('passo').value
+    let passo = document.getElementById('passo').value;
     
-    if(Number(primeiroNumero.length) === 0 || Number(segundoNumero.length) === 0 || Number(passo.length) === 0 ){
-        alert('[Erro] Faltam dados!')
-    }else{
+    
+    
+    if(primeiroNumero === "" || segundoNumero === "" || passo === ""){
+        alert('Erro. Digite todos os números')
+    }  else{
         let i = Number(primeiroNumero);
         let f = Number(segundoNumero);
         let p = Number(passo);
-        
-        for(let c = i ; c <= f; c += p ){
+        let res = document.getElementById('res');
+        let resultado = '';
 
-            exibirTextoNaTela('p:nth-of-type(4)', `Contando: ${c}`);
-
+        for( let c = i; c <= f; c += p){
+            resultado += `${c}`;
+            res.innerHTML = `Contando: ${resultado}`;
         }
         
-    }
-    
+    }   
 }
-
