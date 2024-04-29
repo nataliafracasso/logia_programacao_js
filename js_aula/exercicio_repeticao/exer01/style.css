@@ -11,6 +11,7 @@
 
     --color-branco: #f0f0f0;
     --cor-azul:#8CBEB2;
+    --cor-azul-escuro:#2f524a;
    
 }
 
@@ -21,9 +22,15 @@ body{
 .header > h1{
     font-weight: 500;
     font-size: 2rem;
+    color: var(--color-branco);
 }
 .caixa_texto{
     font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--cor-azul-escuro);
+}
+.caixa_numero{
+    width: 50px;
 }
 .caixa{
     height: 100vh;
@@ -47,11 +54,6 @@ body{
     background-color:var(--color-branco);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.336);
     width: 330px;
-    padding: 10em 0.5em 10em 0.5em;
+    padding: 3.5em 0.5em 3.5em 0.5em;
     border-radius: 6px;
-}
-img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
 }

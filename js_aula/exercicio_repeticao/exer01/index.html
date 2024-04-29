@@ -6,16 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <title>HORA DO DIA</title>
 </head>
-<body onload="carregar()">
+<body >
         <section class="caixa">
             <div class="header">
                 <h1></h1>
             </div>
             <div class="caixa_conteudo">
                 <div>
-                    <p class="caixa_texto"></p>
+                    <p class="caixa_texto">Número: <input id="caixa_numero" type="number"> </p>
+                    <input type="submit" onclick="gerarTabuada()" value="Calcular">
                 </div>
-                <div class="img">
+                <div id="res" >
                     
                 </div>
             </div>
