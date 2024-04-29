@@ -16,15 +16,14 @@ function gerarTabuada( ){
     let res = document.getElementById('res');
     let tabuada = ''; // Armazena o número, cada vez q passa pelo for
 
-    if(Number(numero) == "" ){
-
-       res.innerHTML = "";
-       alert('Digite um número');
+    if(numero = ""){
        
-
+       alert('Digite um número');
+       res.innerHTML = "";
+      
     } else if( numero >= 0){
 
-        for( c = 0; c <=10; c++){
+        for( c = 1; c <= 10; c++){
             
             tabuada += `${numero} x ${c} =  ${numero*c} <br>` 
 
@@ -32,7 +31,7 @@ function gerarTabuada( ){
 
         res.innerHTML = tabuada;
         
-        limpaTela()
+       limpaTela()
     }
     
 }
