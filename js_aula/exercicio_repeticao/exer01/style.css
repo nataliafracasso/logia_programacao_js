@@ -12,6 +12,7 @@
     --color-branco: #f0f0f0;
     --cor-azul:#8CBEB2;
     --cor-azul-escuro:#2f524a;
+    
    
 }
 
@@ -29,8 +30,27 @@ body{
     font-weight: 500;
     color: var(--cor-azul-escuro);
 }
-.caixa_numero{
-    width: 50px;
+#caixa_numero{
+    width: 100px;
+    padding: 0.6em;
+    margin-left: 0.1em;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.658);
+}
+#botao_tabuada{
+    width: 100px;
+    padding: 0.6em;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.658);
+    color: var(--cor-azul-escuro);
+    background-color: var(--cor-botao);
+}
+#botao_tabuada:hover{
+    cursor: pointer;
+    background-color:var(--cor-azul-escuro);
+    color: var(--color-branco);
 }
 .caixa{
     height: 100vh;
@@ -53,7 +73,12 @@ body{
 
     background-color:var(--color-branco);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.336);
-    width: 330px;
+    width: 340px;
     padding: 3.5em 0.5em 3.5em 0.5em;
     border-radius: 6px;
+}
+.caixa_conteudo_flex{
+    display: flex;
+    align-items: end;
+    gap: 0.6em;
 }

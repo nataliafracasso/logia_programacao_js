@@ -4,23 +4,25 @@ function textoNaTela(tag, text){
     texto.innerHTML = text;
 
 }
-function LimpaTela(){
-    document.getElementById('input'). value = "";
+function limpaTela(){
+    document.getElementById('caixa_numero'). value = "";
 }
 textoNaTela('h1', 'Tabuada')
 
 
 function gerarTabuada( ){
     
-    let numero =Number(document.querySelector('input').value);
+    let numero = Number(document.querySelector('input').value);
     let res = document.getElementById('res');
     let tabuada = ''; // Armazena o número, cada vez q passa pelo for
 
-    if( numero.length === 0){
+    if(Number(numero) == "" ){
 
+       res.innerHTML = "";
        alert('Digite um número');
+       
 
-    } else if ( numero >= 0){
+    } else if( numero >= 0){
 
         for( c = 0; c <=10; c++){
             
@@ -29,9 +31,9 @@ function gerarTabuada( ){
         } 
 
         res.innerHTML = tabuada;
-        LimpaTela();
+        
+        limpaTela()
     }
-   
     
 }
 
