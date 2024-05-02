@@ -25,8 +25,8 @@ function verificadorDeVelocidade(){
         
         
     } else {
-        textoNaTela('p', `Sua velocidade atual é ${Number(velocidade.value)}`); 
-        trocaImagemdeFundo("url('img/carro.png')");
+        textoNaTela('p', `Sua velocidade atual é ${Number(velocidade.value)}km/h`); 
+        trocaImagemdeFundo("url('img/carroazul.png')");
         
         
     }
