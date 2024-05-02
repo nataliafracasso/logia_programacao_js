@@ -71,7 +71,7 @@ span{
     background-color: var(--cor-amarelo);
 }
 .img{
-    background-image: url(img/cars-5970663_640.png);
+    background-image: url(img/carro.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
