@@ -4,7 +4,7 @@ function textoNaTela(tag, text){
 }
 textoNaTela('h1',`VERIFICADOR DE VELOCIDADE`);
 
-function trocaImagemdeFundo(novaImagem ){
+function trocaImagemdeFundo(novaImagem ){ //trocaImagemdeFundo recebe um argumento novaImagem que representa a URL da nova imagem de fundo. 
     let img = document.querySelector('.img');
     img.style.backgroundImage = novaImagem;
     img.style.backgroundPosition ="center"; //centralizar background
@@ -14,21 +14,14 @@ function trocaImagemdeFundo(novaImagem ){
 
 function verificadorDeVelocidade(){
     let velocidade = document.querySelector('#numero');
-    
-
     if( velocidade.value == 0 ) {
-        alert('Erro: digite a velocidade')
-        
+        alert('Erro: digite a velocidade')   
     }else if (Number(velocidade.value) > 60){
         textoNaTela('p',`Você está sendo MULTADO, por excesso de velocidade!`); 
-        trocaImagemdeFundo("url('img/atencao.png')");
-        
-        
+        trocaImagemdeFundo("url('img/atencao.png')");  
     } else {
         textoNaTela('p', `Sua velocidade atual é ${Number(velocidade.value)}km/h`); 
         trocaImagemdeFundo("url('img/carroazul.png')");
-        
-        
     }
      velocidade.value=('');
     
