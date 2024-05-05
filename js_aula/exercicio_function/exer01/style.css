@@ -37,7 +37,7 @@ body{
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.658);
 }
-#botao_tabuada{
+.botao{
     width: 100px;
     padding: 0.6em;
     font-size: 0.9rem;
@@ -47,10 +47,13 @@ body{
     color: var(--cor-azul-escuro);
     background-color: var(--cor-botao);
 }
-#botao_tabuada:hover{
+.botao:hover{
     cursor: pointer;
     background-color:var(--cor-azul-escuro);
     color: var(--color-branco);
+}
+#botao_verifica{
+    display: none;
 }
 .caixa{
     height: 100vh;
