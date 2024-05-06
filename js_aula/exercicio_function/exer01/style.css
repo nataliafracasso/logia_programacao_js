@@ -52,7 +52,7 @@ body{
     background-color:var(--cor-azul-escuro);
     color: var(--color-branco);
 }
-#botao_verifica{
+#botao_verifica, #botao_limpar{
     display: none;
 }
 .caixa{
