@@ -54,18 +54,22 @@ function analisaNumero(){
 
     let soma = 0;
 
-    for (let i = 0; i < valores.length; i++){
-        soma += valores[i] // Ta "sendo o índice de cada elemento", assim pega gada elemento e soma 
+    for (let i = 0; i < valores.length; i++){ //Enquanto o valor de i for menor que o comprimento do array "valores", o loop continuará sendo executado.
+        soma += valores[i]  //adicionando o valor do elemento atual à soma acumulada
+        // "i" ta "sendo o índice de cada elemento", assim pega gada elemento e soma 
     }
+    
+    let media = soma / valores.length // Meia dos valores
 
     // Concatena as mensagens em uma única string
     let mensagemVerifica = `Valores verificados: ${valores} <br>`;
     mensagemVerifica += `Ao todo, tem ${valores.length} números cadastrados <br>`;
-    mensagemVerifica += `O maior número é ${maiorNumero} <br>`;
-    mensagemVerifica +=` O menor número é ${menorNumero} <br>`;
-    mensagemVerifica += `A soma entre os números é ${soma}`;
+    mensagemVerifica += `O maior valor informado foi  ${maiorNumero} <br>`;
+    mensagemVerifica +=` O menor menor valor informado foi ${menorNumero} <br>`;
+    mensagemVerifica += `A soma entre os números é ${soma} <br>`;
+    mensagemVerifica += ` A média entre os valores adicionado é ${media.toFixed(2)}`
 
-    document.querySelector('#res').innerHTML = mensagemVerifica;
+    res.innerHTML = mensagemVerifica;
     
 
     document.querySelector('#botao_verifica').style.display = 'none'; // Após fazer a verificação "some" o botão verificar
