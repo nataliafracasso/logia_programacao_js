@@ -1,6 +1,8 @@
+let listaDeNumeroSorteados = [];
+let numeromax = 10;
 let numeroS = gerarNumeroSecreto();
 let tentativas = 1;
-let numeromax = 10;
+
 
 function exibirNaTela( tag, text){
     let campoTexto = document.querySelector(tag);
@@ -28,6 +30,7 @@ function verificarChute( ){
                 exibirNaTela('h1', `Você acertou!`);
                 exibirNaTela('p', `Você descobriu o número secreto com ${tentativas} ${mensagemComTentativas}`);
                 document.getElementById('reiniciar').removeAttribute('disabled'); //Quando o usuário ganhar, vou desabilitar esse atributo do botão(novo jogo), ativando o mesmo. 
+
             } else {
                 if( chute > numeroS){  
                 
@@ -43,7 +46,23 @@ function verificarChute( ){
 }
 
 function gerarNumeroSecreto(){
-    return parseInt(Math.random() * 10 + 1);
+
+    // Gera o número secreto com objetivo do número não se repetir ...
+    let numeroEscolhido = parseInt(Math.random() * numeromax + 1); //Armazena o numero aleatório
+    let quantidadeDeElementosNoVetor = listaDeNumeroSorteados.length;
+
+    if (quantidadeDeElementosNoVetor == numeromax){ // Todos os números já foram sorteados, precisa limpar a array e começar novamente.
+        listaDeNumeroSorteados = []
+    }
+    if(listaDeNumeroSorteados.includes(numeroEscolhido)){
+        // Caso o numero já esteja na lista vai return/ gerar um novo número aleatório / INCLUSE - verifica se o núemero esta dentro da array
+        return gerarNumeroSecreto()// RECURSÃO
+
+    } else{ //Se nao está na lista, vai retornar o número escolhido
+        listaDeNumeroSorteados.push(numeroEscolhido) // Armazenando no array o numero escolhido
+        console.log(listaDeNumeroSorteados);
+        return numeroEscolhido
+    }
 }
 
 function limpaCampo(){
