@@ -9,7 +9,7 @@
 
 :root{
  --font:"Varela Round", sans-serif;
- --cor-branco:#ffffff;
+ --cor-branco:#f8f9fd;
  --cor-cinza:hsl(204, 43%, 93%);
  --cor-azul: hsla(179, 50%, 43%, 0.534);
  --cor-azul-claro:hsla(179, 62%, 43%, 0.705);
@@ -24,18 +24,63 @@ body{
 }
 
 main{
-    height: 100vh;
-    background-color: #ffffff;
+    height: 100vh; 
     display: grid;
-    justify-content: center;
     justify-items: center;
     align-items: center;
 }
 
 .caixa_conteudo{
-    width: 300px;
+    width: 330px;
     display: grid;
     justify-items:center;
+    gap: 1.5em;
 
+    background-color: var(--cor-branco);
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.103) ;
+    border-radius: 0.5em;
+    padding: 1.5em 0 1.5em 0;
+}
+.titulo{
+    text-align: center;
+    color: var(--cor-amarelo);
+    padding-bottom: 0.8em;
+}
+.texto{
+   font-size: 1.1rem; 
+}
+.input_tamanho{
+    width: 100px;
+    padding: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 0.3em;
+}
+.input_tamanho::placeholder{
+    color: var(--cor-azul-claro); 
+    font-size: 0.9rem; 
+    font-weight: 600;
+}
+#peso{
+    margin-bottom: 1.5em;
+}
+.botao_informacao{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5em;
+}
+.botao{
+    width: 100px;
+    padding: 0.8em;
+    border: 2px solid  rgba(0, 0, 0, 0.308);
+    border-radius: 0.9em;
+    font-weight: 600;
 }
 
+.botao:hover{
+    color: var(--cor-amarelo);
+    border: 1px solid var(--cor-amarelo);
+}
+.alerta{
+    color: var(--cor-amarelo);
+}
