@@ -15,10 +15,12 @@ function calcularPeso(){
     let peso = Number(document.getElementById("peso").value);
     let altura = Number(document.getElementById("altura").value);
     let res = peso/altura**2;
+    console.log(res)
     
     if( peso == "" || altura == ""){
-        textoNaTela('span',`Verifique os campos <br>`);
+        textoNaTela('span',`Verifique os campos! <br>`);
     } else{
+        textoNaTela('span', '');
         if( res <= 18.5 ){
         textoNaTela('p',`IMC  ${res.toFixed(2)}, está abaixo do peso`);
         } else if( res <= 24.9){
@@ -32,8 +34,14 @@ function calcularPeso(){
 
 }
 
-
+function limparCalculo(){
+    limpaCampo();
+    primeiraMensagem();
+    
+}
        
-
-
-
+function limpaCampo( ){
+   document.getElementById('peso').value = '';
+   document.getElementById('altura').value = '';
+   textoNaTela('span', '');
+}
