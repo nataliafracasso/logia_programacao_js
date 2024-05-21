@@ -1,4 +1,5 @@
 let armazenaProdutos = [];
+somaTotal = 1400;
 function adicionar(){
     let produto = document.querySelector('#produto').value;
     let nomeProduto = produto.split('-')[0]; // Vou separar(tirar do Fone de ouvido (-) R$100 e utilizar somente (fone de ouviod p=[0]))
@@ -6,15 +7,19 @@ function adicionar(){
     let quantidade = document.querySelector('#quantidade').value;
     let calculoQuantidade = quantidade * valorUnitario;
    
-
+    calculaNoCarrinho(quantidade, nomeProduto, calculoQuantidade)
+    total(valorUnitario);
 }
 
-function calculaNoCarrinho(){
-
+function calculaNoCarrinho(quantidade, nomeProduto, calculoQuantidade){ //melhorar
     let res = document.getElementById('res');
+    let calcular =`${quantidade}x ${nomeProduto} R$${calculoQuantidade}`;
+    armazenaProdutos.push(calcular);
+    res.innerHTML = `${armazenaProdutos} <br>`;
 }
 
-// pegar valores, nome do produto, quantidade e valor
+
+
 // calcular o preço e o subtotal
 //adicionar no carrinho
 // atualizar valor total da compra
