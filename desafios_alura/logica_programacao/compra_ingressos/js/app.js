@@ -1,17 +1,61 @@
 function comprar(){
 
-    //Pegar valores
-    let escolhaIngresso = document.getElementById('tipo-ingresso').value;
-   
+  let tipo = document.querySelector('#tipo-ingresso').value;
+  let quantidade = Number(document.querySelector('#qtd').value);
+ 
+ if( tipo == 'pista'){
+    comprarPista(quantidade);
+ } else if(tipo == 'superior'){
+    compraSuperior(quantidade);
+ 
+ }else{
+    compraInferior(quantidade);
+ }
+
+ limpar();
 
 }
 
-//Pegar valores
-  // Tipo de inggresso
-  //quantidade
-  //Tipos de ingressos disponíveis 
+function comprarPista(quantidade){
+
+  let quantidadeFixa = Number(document.querySelector('#qtd-pista').textContent); // Pegar o texto e converter p número
+  if(quantidade > quantidadeFixa){
+    alert('Quantidade indisponível para tipo pista');
+  } else{
+    quantidadeFixa = quantidadeFixa - quantidade; // Calcular a quantidade de ingressos disponíveis 
+    document.querySelector('#qtd-pista').textContent = quantidadeFixa;
+    alert('Compra realizada com sucesso!');
+
+  }
+}
+
+function compraSuperior(quantidade){
+
+  let quantidadeFixa = Number(document.getElementById('qtd-superior').textContent);
+  if(quantidade > quantidadeFixa){
+    alert('Quantidade indisponível para tipo superior');
+  } else{
+    quantidadeFixa = quantidadeFixa - quantidade;
+    document.getElementById('qtd-superior').textContent = quantidadeFixa;
+    alert('Compra realizada com sucesso!');
+  }
+
+}
+
+function compraInferior(quantidade){
+
+  let quantidadeFixa = Number(document.querySelector('#qtd-inferior').textContent);
+  if( quantidade > quantidadeFixa){
+    alert('Quantidade indisponível para tipo inferior');
+  } else{
+    quantidadeFixa = quantidadeFixa - quantidade;
+    document.getElementById('qtd-inferior'). textContent = quantidadeFixa;
+    alert('Compra realizada com sucesso!');
+  }
+}
+
  
-//Calcular
-    //Subtarair a quantide de comprar de ingresso com os ingressos disponíveis 
-    //Aparecer alert quando a pessoa tentar comprar e não tiver mais ingresso = 0
+function limpar(){
+  document.querySelector('#qtd').value = 0;
+}
 
