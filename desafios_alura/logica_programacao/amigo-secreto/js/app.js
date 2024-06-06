@@ -5,16 +5,23 @@ function adicionar(){
     let listaDeAmigos = document.getElementById('lista-amigos');
     
     if(nome == ''){
-        alert('Digite os nomes');
+        alert('Informe o nome do amigo!');
+    }else if(nomesParaSortear.includes(nome)){//Verificando se o nome já foi adicionado dentro do array 
+        alert('Nome já adicionado!');
     }else{
         nomesParaSortear.push(nome);
         listaDeAmigos.innerHTML = nomesParaSortear;
     }
+
     limpar();
 }
 
 function sortear(){ // amigo sortear o próximo
 
+    if(nomesParaSortear.length < 4){ // Se os elementos adicionados forem menor que 4 aparace o alert
+        alert('Adicione pelo menos 4 amigos!');
+        return;
+    }
     embaralha(nomesParaSortear);
     let sortearAmigo = document.getElementById('lista-sorteio');
 
@@ -58,5 +65,3 @@ function limpar(){
 
 
 
-//mostrar os nomes 
-//cruzar os nomes
