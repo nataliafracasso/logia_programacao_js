@@ -41,6 +41,12 @@ function sortear(){ // amigo sortear o próximo
     }
 }
 
+function excluirAmigos(index){
+    nomesParaSortear.splice(index, 1);
+    atualizarLista();
+    atualizarSorteio();
+}
+
 function embaralha(lista) { // embaralha elementos dentro do array
 
     for (let indice = lista.length; indice; indice--) {
@@ -50,6 +56,29 @@ function embaralha(lista) { // embaralha elementos dentro do array
         // atribuição via destructuring
         [lista[indice - 1], lista[indiceAleatorio]] = 
             [lista[indiceAleatorio], lista[indice - 1]];
+    }
+}
+
+function atualizar(){
+    let listaDoResultadoSorteio = document.getElementById('lista-sorteio');
+    listaDoResultadoSorteio.innerHTML = '';
+}
+
+function atualizarLista(){
+    let nomesAdicionadosNaLista = document.getElementById('lista-amigos');
+    nomesAdicionadosNaLista.innerHTML = '';
+
+    for( let i = 0; i < nomesParaSortear.length; i++ ){
+        let paragrafo = document.createElement('p') //criar elemento;
+        paragrafo.textContent = nomesParaSortear[i] //Define o conteúdo de texto do parágrafo como o nome do amigo atual.
+
+        paragrafo.addEventListener('click', function(){ // Adiciona um evento de clique ao parágrafo.
+            excluirAmigos(i); //Quando o parágrafo é clicado, chama a função excluirAmigo passando o índice i do amigo atual como argumento. Isso remove o amigo da lista.
+        })
+
+        // Adiciona o parágrafo à lista
+        nomesAdicionadosNaLista.appendChild(paragrafo);
+        
     }
 }
 
