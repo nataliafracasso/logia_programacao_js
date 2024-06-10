@@ -13,7 +13,11 @@ function adicionar(){
         listaDeAmigos.innerHTML = nomesParaSortear;
     }
 
+
+
     limpar();
+    atualizarLista();
+    atualizarSorteio();
 }
 
 function sortear(){ // amigo sortear o próximo
@@ -78,8 +82,8 @@ function atualizarLista(){
 
         // Adiciona o parágrafo à lista
         nomesAdicionadosNaLista.appendChild(paragrafo);
-        
     }
+    document.getElementById('lista-sorteio').textContent = '';
 }
 
 function reiniciar(){
@@ -89,6 +93,7 @@ function reiniciar(){
 }
 function limpar(){
     document.getElementById('nome-amigo').value = '';
+    
 }
 
 
