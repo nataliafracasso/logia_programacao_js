@@ -1,0 +1,283 @@
+[33mcommit 14caecffc89b3090ee17fd77f98e2c16d4e91cb0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Thu Jun 13 12:37:18 2024 -0300
+
+    criando som do pom
+
+[33mcommit e70bdb2db0f2ed7c5bb6bbaa9ad19af725a4aebd[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed Jun 12 22:08:23 2024 -0300
+
+    iniciando projeto mid
+
+[33mcommit 358f9148234070f537c18ae5e338c2222c2d9ca4[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed Jun 12 22:00:44 2024 -0300
+
+    movendo de pasta
+
+[33mcommit 2f9bced5753e85981e2a44d664c28be43478cf98[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon Jun 10 10:08:46 2024 -0300
+
+    Excluir amigo do sorteio
+
+[33mcommit c8282cf2d313d3935ae4374bfce5ba4c931d4c99[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon Jun 10 09:55:03 2024 -0300
+
+    excluir nome do amigo
+
+[33mcommit ed3e2fb9cb6b32b986d6f2579989625f14177fd9[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed Jun 5 22:18:58 2024 -0300
+
+    não repetir os nomes
+
+[33mcommit f77099851946e82de7912685ab2a101fadabf6d5[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed Jun 5 21:25:21 2024 -0300
+
+    alerta ao campo vazio
+
+[33mcommit 3d59105a582cfc351b1b2279d325fef4ae47e23d[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed Jun 5 10:27:27 2024 -0300
+
+    sortear os nomes
+
+[33mcommit 2d1b24404d3dac0bed8b088385853138a624a5b9[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed Jun 5 09:26:04 2024 -0300
+
+    projeto amigo secreto
+
+[33mcommit ec62fb6b3a81ab941109571d800c3f8f6eb04275[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Tue Jun 4 10:41:57 2024 -0300
+
+    Projeto ingresso online
+
+[33mcommit 2ca619ac19c51f3abe3e26f5d66c4b9ff78ec23f[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed May 22 20:42:49 2024 -0300
+
+    inicio do projeto
+
+[33mcommit 79449b934fd92933f192cb0345d002c5c1a27869[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Tue May 21 22:09:15 2024 -0300
+
+    desafio carrinho- alura
+
+[33mcommit 7956b437bec5ba516ef605a966071295c4850b3b[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Tue May 21 06:29:08 2024 -0300
+
+    adicionar
+
+[33mcommit 090ff276f57b2598632eb1f23d1ab050c908a165[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon May 20 20:57:15 2024 -0300
+
+    variáveis
+
+[33mcommit e8460aa51019e793cb40ca5086c81ac866f19473[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon May 20 19:18:54 2024 -0300
+
+    botão
+
+[33mcommit a0981e083be2badd771972260d2384c81396a18b[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon May 20 18:37:33 2024 -0300
+
+    botão funcionando
+
+[33mcommit 6a6cd587adbb829b6c671817c3a26a15df49fadf[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon May 20 10:11:27 2024 -0300
+
+    variáveis
+
+[33mcommit c54a2ce34dc18ef19539ad9cb8f870fe60e553c5[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sat May 18 22:29:30 2024 -0300
+
+    alugames/novo desafio
+
+[33mcommit eea91ac2db2814149665ef786bfb7babc8f4d38e[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sat May 18 22:22:07 2024 -0300
+
+    ativar  e desativar botão
+
+[33mcommit e7ae837191215243d507ef97489d4331abec9094[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sat May 18 20:29:42 2024 -0300
+
+    sorteando números aleatórios
+
+[33mcommit 9bc83c72950bcde9af7ff684294bec651fb2dcac[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Thu May 16 21:56:26 2024 -0300
+
+    gerar número aleatório
+
+[33mcommit bea61082407643b8d3172bde8eeb64b6d8e1dce8[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed May 15 18:38:04 2024 -0300
+
+    function ao clicar
+
+[33mcommit b7906bebd9faabe77cb99847920e2f9882ed3556[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Tue May 14 21:10:04 2024 -0300
+
+    sorteador de número
+
+[33mcommit 5ae285fb963944bf8d44f205fcc4c130b36a9376[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon May 13 20:15:39 2024 -0300
+
+    converte
+
+[33mcommit a99cd585640ce42f85a113e7525e53f283835feb[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon May 13 13:16:40 2024 -0300
+
+    desafio calcular imc
+
+[33mcommit a44267ab48fcfe74d90fb7d3ed2a157e18450181[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon May 13 12:44:06 2024 -0300
+
+    function calcular peso
+
+[33mcommit b468ba512a88f989f842c8ced03beeb3381c5581[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Mon May 13 10:26:16 2024 -0300
+
+    posição das caixas
+
+[33mcommit 5b6c4c69f6246d11430909b2ab58bb779720c52d[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sat May 11 18:34:49 2024 -0300
+
+    estrutura no html
+
+[33mcommit 5a705aa930f433d083040ed7edee0338c73cb929[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sat May 11 00:11:32 2024 -0300
+
+    array
+
+[33mcommit a964e7a6df050eea7d2b85158303884bf2b9c888[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Fri May 10 23:25:41 2024 -0300
+
+    novas functions
+
+[33mcommit 069eafa6db19ee3c6d89f6874b5443976d6c7e0e[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Fri May 10 22:18:50 2024 -0300
+
+    jogo numero secreto
+
+[33mcommit 0db0e6bb7eed94eda83192acac4ebda3ffd3238b[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Thu May 9 18:50:37 2024 -0300
+
+    jogo secreto
+
+[33mcommit 690cfc94a444b95e507df261dfb8a8047f3f3aad[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed May 8 23:19:11 2024 -0300
+
+    operador ternaáio
+
+[33mcommit abedb643ab27a151138ed8532b48a565719af184[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed May 8 22:52:53 2024 -0300
+
+    while
+
+[33mcommit c9bf0ad94ae15e482391de4057b221890ecb228b[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed May 8 22:29:14 2024 -0300
+
+    praticando/Alura condição simples
+
+[33mcommit a010a5980fd53e2766bd1fe8e1530adc3fe9a70c[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed May 8 20:58:36 2024 -0300
+
+    objeto
+
+[33mcommit 28eb577a51e24b2fbb45f1100c59e0d2150d6fbe[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Wed May 8 17:36:00 2024 -0300
+
+    Analisador de Números
+
+[33mcommit 08748d3ff6a8f634f9ab49162c510aeed38fbd79[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sun May 5 22:35:25 2024 -0300
+
+    somando os valores
+
+[33mcommit a50bd1e48104c4eb15542fbe622a76a1fe04593a[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sun May 5 01:35:46 2024 -0300
+
+    analisando número
+
+[33mcommit 85994495edee55b1e787ad122501dc60d1fb4085[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sun May 5 00:50:08 2024 -0300
+
+    adicionando o número na lista
+
+[33mcommit 98b2d32751ec12ddbfe34a6fc6520a63b43d7590[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sat May 4 23:55:25 2024 -0300
+
+    verificador de numero
+
+[33mcommit d995bb863d217adf7e492b39626aa3d422b4fdd7[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Sat May 4 22:05:04 2024 -0300
+
+    função com parâmetro
+
+[33mcommit 7a406aa0d33da348dd2ab306196c7dfa86d53846[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Fri May 3 23:07:45 2024 -0300
+
+    function
+
+[33mcommit 027003f733ed613607c159740d112e656872c9ba[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Fri May 3 22:52:41 2024 -0300
+
+    function com parâmetro
+
+[33mcommit c150f9af19bf4ca0933abdca1bf1f720d24c0094[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Fri May 3 22:19:19 2024 -0300
+
+    variáveis composta
+
+[33mcommit 79e2b54091045a26abed2533741f7d6b809c975e[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Thu May 2 22:11:10 2024 -0300
+
+    variável composta
+
+[33mcommit e9ac5936cade5c2c7bf5a04114a6543b71fc9671[m
+Author: Natalia Fracasso <nataliadiazf05@gmail.com>
+Date:   Thu May 2 21:15:05 2024 -0300
+
+    comentário
+
+[33mcommit 33f
